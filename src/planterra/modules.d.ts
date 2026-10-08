@@ -1,2 +1,6 @@
-declare module "@/planterra/public" { const m: any; export = m; }
-declare module "@/planterra/admin" { const m: any; export = m; }
+declare module "@/planterra/public" {
+  export const AboutPage: any, ApproachPage: any, ContactPage: any, GalleryPage: any, HighlightsPage: any, Home: any, ProductsPage: any, PublicShell: any;
+}
+declare module "@/planterra/admin" {
+  export const AdminLogin: any, AdminPage: any;
+}
