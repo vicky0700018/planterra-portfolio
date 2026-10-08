@@ -4,4 +4,4 @@ declare module "@/planterra/public" {
 declare module "@/planterra/admin" {
   export const AdminLogin: any, AdminPage: any;
 }
-declare module "../planterra/store" { export const DataProvider: any; }
+declare module "@/planterra/store" { export const DataProvider: any; }

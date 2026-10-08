@@ -12,7 +12,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
-import { DataProvider } from "../planterra/store";
+import { DataProvider } from "@/planterra/store";
 
 function NotFoundComponent() {
   return (
