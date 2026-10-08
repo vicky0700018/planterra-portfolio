@@ -1,5 +1,5 @@
-const assetFiles = import.meta.glob('../assets/*.asset.json', { eager: true, import: 'default' });
-export const photos = Array.from({ length: 20 }, (_, i) => assetFiles[`../assets/photo-${String(i).padStart(2, '0')}.jpg.asset.json`]?.url).filter(Boolean);
+const photoIds = ["1500382017468-9049fed747ef", "1464226184884-fa280b87c399", "1488459716781-31db52582fe9", "1464965911861-746a04b4bca6", "1540420773420-3366772f4999", "1574323347407-f5e1ad6d020b", "1471193945509-9ad0617afabf", "1523348837708-15d4a09cfac2", "1416879595882-3373a0480b5b", "1592417817098-8fd3d9eb14a5", "1530836369250-ef72a3f5cda8", "1542838132-92c53300491e", "1595855759920-86582396756a", "1560493676-04071c5f467b", "1619566636858-adf3ef46400b", "1518977676601-b53f82aba655", "1506484381205-f7945653044d", "1573246123716-6b1782bfc499", "1551754655-cd27e38d2076", "1625246333195-78d9c38ad449"];
+export const photos = photoIds.map((id) => `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=1600&q=80`);
 export const categories = ['All', 'Fruits', 'Vegetables', 'Fresh Produce', 'Crops', 'Bulk / Wholesale'];
 export const galleryCategories = ['All', 'Farms', 'Fresh Produce', 'Harvest', 'Agriculture', 'Products', 'Supply'];
 export const steps = [['Source', 'Identify and source suitable agricultural products.'], ['Select', 'Focus on quality and freshness.'], ['Prepare', 'Prepare products thoughtfully for supply.'], ['Supply', 'A dependable agricultural product experience.'], ['Build Relationships', 'Focus on lasting customer relationships.']];
