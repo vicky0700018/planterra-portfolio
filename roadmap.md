@@ -1,5 +1,4 @@
-# PLANTERRA implementation
-- [ ] Build shared brand system, local mock data and portable photography assets.
-- [ ] Build home, about, products, approach, gallery, highlights and contact pages.
-- [ ] Build demo admin login and editable modules with browser-only persistence.
-- [ ] Verify filters, lightbox, enquiries, admin edits, images and mobile layouts.
+# Current request
+- [ ] Rename business to Agro All Farm Fresh across the website.
+- [ ] Add fertilizers and soil, feature crops, and introduce greener imagery.
+- [ ] Preserve browser demo edits and verify filters, enquiries and page layout.
